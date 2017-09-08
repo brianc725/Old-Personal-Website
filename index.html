@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+      <!-- , initial-scale=1 -->
+    <title>Brian Chan's Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head> 
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <header>
+    <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+            
+          <div class="navbar-brand" id="home-up">
+            <a href="#home" ><h1>Brian Chan</h1></a>
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About Me</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#projs">Projects</a>
+            </li>
+            <li>
+              <a href="img/pht1.JPG" target="_blank">Resume</a>
+            </li> 
+            <li>
+              <a href="#contact">Contact</a>
+            </li>   
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+    
+    <!-- Toolbar stuff above, actual website content below -->
+    
+ <section id="home">
+     <div class="row">
+     <div id="home-text" class="col-xs-12 col-sm-6">   <!-- change to bootstrap row and then xs have it go to stack view -->
+        <h1 id="welcome" >Hello, I'm Brian!</h1>
+        <h3>Welcome to my website!</h3> 
+        <button type="button" id="resume-button"  onclick="window.open('img/pht1.JPG');">My Resume</button>
+     </div>
+         
+         <!--.class img height = 100, width = 100-->
+         
+     <img class="profile col-sm-6" src="img/prof300.jpg" alt="Profile Picture" >
+    </div> <!-- .row -->
+ </section> <!-- #home -->
+    
+ <section id="about">
+     <h2 class="text-center"><b>About Me</b></h2>
+     <br>
+     <h4 class="text-center">Hello, my name is Brian Chan and I am a second year Computer Science and Engineering student at UCLA.</h4>
+     <h4 class="text-center">Besides learning how to code, I enjoy photography and traveling. I also enjoy plane spotting and trying to take pictures of large planes. Check out some of my favorite pictures that I took below!</h4>
+     <div class="row">
+     
+     </div>
+     
+     <!--Classes taken and classes currently taking -->
+     <br>
+    <div class="row">
+       <ul id="course-taken" class="col-sm-6">
+            <li class="list-title">Courses Taken</li>
+            <li>&nbsp;</li>
+            <li><u>CS 31 and 32</u>: Introduction to Computer Science</li>
+            <li><u>CS 33</u>: Introduction to Computer Organization</li>
+            <li><u>Math 32A and B</u>: Calculus of Several Variables</li>
+            <li><u>Math 33A</u>: Linear Algebra and Applications</li>
+            <li><u>Physics 1A</u>: Mechanics </li>
+            <li><u>Physics 1B</u>: Oscillations, Waves, E&amp;M</li>
+            <li><u>Physics 4AL</u>: Physics Laboratory: Mechanics</li>
+            <li>AP Computer Science A</li>
+            <li>&nbsp;</li>
+           <!--ADD THE REST OF CLASSES HERE!!!-->
+       </ul>
+        <ul id="current-course" class="col-sm-6">
+            <li class="list-title">Current Courses</li>
+            <li>&nbsp;</li>
+            <li><u>CS 35L</u>: Software Construction Laboratory</li>
+            <li><u>Math 61</u>: Introduction to Discrete Structures</li>
+            <li><u>Physics 1C</u>: <span style="font-size:0.8em">Electrodynamics, Optics, and Special Relativity</span></li>
+            <li><u>EE 3</u>: Introduction to Electrical Engineering</li>
+            <li>&nbsp;</li>
+            <li>&nbsp;</li> <!-- Fill in extra blank spaces -->
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+       </ul>
+    </div>
+     <div class="row">
+     <ul id="employ" class="col-lg-12">
+         <li class="list-title">Employment History</li>
+            <li>&nbsp;</li>
+            <li><b>iD Tech Camps at Caltech</b> <i>(June - August 2017)</i> : Instructor teaching students Java with Processing, C++, and Web Development with a focus on JavaScript.</li>
+     </ul>
+     </div>
+     
+     
+     <!--CREATE A CLASS COL-XS-12 AS DONE IN JHU-->
+     
+     <div class="row img-port">
+         <img class="col-xxs-12 col-xs-6 col-sm-4 col-md-4 portfolio-img img-responsive" src="img/pht1.JPG" alt="Plane taking off with LAX in background" >
+         <img class="col-xxs-12 col-xs-6 col-sm-4 col-md-4 portfolio-img img-responsive" src="img/pht2.JPG" alt="Dreamlifter at Paine Field Airport" >
+         <img class="col-xxs-12 col-xs-6 col-sm-4 col-md-4 portfolio-img img-responsive" src="img/pht3.JPG" alt="An A380 taking off" >
+         <img class="col-xxs-12 col-xs-6 col-sm-4 col-md-4 portfolio-img img-responsive" src="img/pht4.JPG" alt="Beautiful California coast" >
+         <img class="col-xxs-12 col-xs-6 col-sm-4 col-md-4 portfolio-img img-responsive" src="img/pht5.JPG" alt="A giraffe up close" >
+         <img class="col-xxs-12 col-xs-6 col-sm-4 col-md-4 portfolio-img img-responsive" src="img/pht6.JPG" alt="Delicate Arch at Arches National Park" >
+     </div>
+ </section>
+    
+ <section id="skills">
+    <h2 class="text-center"><b>My Skills</b></h2>
+     <br>
+
+    <ul id="skills-list">
+        <li>C++
+             <div class="progress">
+                <div class="progress-bar bar-red" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Proficient - 90%</div> 
+            </div> 
+        </li>
+        <li>Java (and Processing)
+            <div class="progress">
+                <div class="progress-bar bar-red" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Proficient - 90%</div> 
+            </div>
+        </li>
+        <li>HTML/CSS
+            <div class="progress">
+                <div class="progress-bar bar-red" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Proficient - 90%</div> 
+            </div>
+        </li>
+        <li>JavaScript
+            <div class="progress">
+                <div class="progress-bar bar-blue" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Intermediate - 75%</div> 
+            </div>
+        </li>
+        <!-- for future update 
+        <li>Python
+            <div class="progress">
+                <div class="progress-bar bar-blue" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Learning</div> 
+            </div>
+        </li>
+
+        -->
+        
+        <li>&nbsp;</li> <!-- gap separate langauge from technologies-->
+        
+        <li>Adobe Photoshop
+            <div class="progress">
+                <div class="progress-bar bar-red" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Proficient - 95%</div> 
+            </div>
+        </li>
+        <li>Adobe Premiere
+            <div class="progress">
+                <div class="progress-bar bar-red" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Proficient - 95%</div> 
+            </div>
+        </li>
+         <li>Microsoft Office Suite
+            <div class="progress">
+                <div class="progress-bar bar-red" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Proficient - 95%</div> 
+            </div>
+        </li>
+        <li>Git
+            <div class="progress">
+                <div class="progress-bar bar-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Intermediate - 85%</div> 
+            </div>
+        </li>
+     </ul>
+ </section>
+    
+<section id="projs">
+    <h2 class="text-center"><b>Projects</b></h2>
+    <br>
+    
+    <!-- http://v4-alpha.getbootstrap.com/components/card/ -->
+    <!-- .card-img-top places an image to the top of the card. With .card-text, text can be added to the card. Text within .card-text can also be styled with the standard HTML tags. -->
+      <div class="row row-equal">
+      <div class="col-xxs-12 col-xs-6 col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="img/nav.jpg" alt="Card image cap">
+            <div class="card-block">
+                <div class="text-center">
+                <a href="https://github.com/brianc725/BruinNav" target="_blank"  class="btn btn-primary btn-title">BruinNav</a>
+                </div>
+                <p class="card-text text-center">A text based turn-by-turn navigation system coded in C++ with its own coded from scratch Map data structure.</p>
+          </div>
+        </div> <!-- .card -->
+      </div> <!-- .col -->
+          
+      <div class="col-xxs-12 col-xs-6 col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="img/bug.jpg" alt="Card image cap">
+            <div class="card-block">
+                <div class="text-center">
+                <a href="https://github.com/brianc725/Bugs" target="_blank"  class="btn btn-primary btn-title">Bugs!</a>
+                </div>
+                <p class="card-text text-center">A game simulation coded in C++ where Bugs compete against each other to fight for resources and survive the longest.</p>
+          </div>
+        </div> <!-- .card -->
+      </div> <!-- .col -->
+          
+     <div class="col-xxs-12 col-xs-6 col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="img/battle.jpg" alt="Card image cap">
+            <div class="card-block">
+                <div class="text-center">
+                <a href="https://github.com/brianc725/Battleship" target="_blank"  class="btn btn-primary btn-title">Battleship</a>
+                </div>
+                <p class="card-text text-center">A game of Battleship coded in C++ using polymorphism and recursion.</p>
+          </div>
+        </div> <!-- .card -->
+      </div> <!-- .col -->
+         
+      <div class="col-xxs-12 col-xs-6 col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="img/tic.jpg" alt="Card image cap">
+            <div class="card-block">
+                 <div class="text-center">
+                <a href="https://github.com/brianc725/TicTacToe" target="_blank"  class="btn btn-primary btn-title">Tic-Tac-Toe</a>
+                </div>
+                <p class="card-text text-center">A text based game of Tic-Tac-Toe using C++ coded completely from scratch</p>
+          </div>
+        </div> <!-- .card -->
+      </div> <!-- .col -->
+          
+           <div class="col-xxs-12 col-xs-6 col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="img/pong.jpg" alt="Card image cap">
+            <div class="card-block">
+                <div class="text-center">
+                <a href="https://github.com/brianc725/PersonalProjects/tree/master/Pong" target="_blank"  class="btn btn-primary btn-title">Pong</a>
+                </div>
+                <p class="card-text text-center">A simple Pong style game created using Java on Eclipse with Proclipsing and Processing.</p>
+          </div>
+        </div> <!-- .card -->
+      </div> <!-- .col -->
+          
+            <div class="col-xxs-12 col-xs-6 col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="img/hang.jpg" alt="Card image cap">
+            <div class="card-block">
+                 <div class="text-center">
+                <a href="https://github.com/brianc725/PersonalProjects/tree/master/Hangman" target="_blank"  class="btn btn-primary btn-title">Hangman</a>
+                </div>
+                <p class="card-text text-center">A text based game of Hangman using C++ with the ability to load in a database of words to be used for guessing.</p>
+          </div>
+        </div> <!-- .card -->
+      </div> <!-- .col -->
+
+    </div> <!--  .row -->
+    
+ </section>
+
+<footer id="contact">
+    <div class="row" id="contact-icons">
+        <!--Icons go here -->
+          <a href="https://github.com/brianc725" target="_blank" class="icons"><img src="img/github.png" alt="Github" class="icon-img"/></a>
+          <a href="mailto:brianchan25@ucla.edu" target="_blank" class="icons"><img src="img/email.png"  alt="brianchan25@ucla.edu" class="icon-img"/></a>
+    </div>
+    <div class="text-center"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp; Los Angeles, CA</div>
+    <div class="text-center"><span class="glyphicon glyphicon-envelope"></span> &nbsp; brianchan25@ucla.edu</div>
+    <div class="text-center">&copy; Copyright Brian Chan 2017</div>
+</footer>    
+    
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

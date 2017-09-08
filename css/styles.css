@@ -1,0 +1,246 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    position: relative;
+}
+
+#header-nav {
+  background-color: #1971ff; /*navbar background*/
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /*name on website*/
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: -8px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+@media (max-width: 767px) /*when screen gets small update navbar*/
+{
+    .navbar-brand h1 { /*name on website*/
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+    
+    /*NEED MEDIA QUERY FOR PICTURE*/
+    /*SHRINK PICTURE TO 150X150*/
+}
+
+.navbar-brand h1:hover, .navbar-brand h1:focus {
+    color: yellow; /*change font color of name when hover*/
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none; /*no underline when hovering name*/
+}
+
+#nav-list a{
+    color:white; /*font color of nav list headers*/
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: black; /*change the active color on navbar*/
+}
+
+#nav-list a:hover { /*hover color change*/
+    background-color: #FFFEAD;
+    color: black;
+}
+
+.profile {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#welcome { /*make welcome message bold*/
+    font-weight: bold;
+}
+
+#home{  /*home section*/
+  min-height: 100vh;
+  padding-top: 20%;
+  padding-bottom: 25%;
+  background-color: #EBF2EB;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+#home-text { /*the text on the home page*/
+    text-align: center;
+    padding-bottom: 10px; /*get some room under the button before pic*/
+}
+
+#resume-button { /*changing the way the button looks*/
+    font-size: 1.2em;
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 35%;
+}
+
+button:hover {
+    background-color: grey; /*colors can be changed later*/
+}
+
+.img-port {
+    padding-top: 5px;
+}
+
+.portfolio-img {
+    padding: 3px;
+}
+
+#about, #skills, #projs { /*base set up for sections*/
+  min-height: 100vh;
+  padding-top: 8%;
+  padding-bottom: 15%;
+  background-color: #f0f8ff;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+#about {
+    padding-bottom: 5%; /*padding bottom for about smaller because of potfolio images taking up room */
+}
+
+#course-taken, #employ{ /*left col for courses taken box around all*/
+    border: 1px solid black;
+}
+
+#course-taken li{ /*get rid of bullet pt and center*/
+   text-align: center;
+   list-style: none;
+   line-height: 1.8;
+}
+
+#current-course { /*right col for cur courses box around all*/
+    border: 1px solid black;
+    border-left: none;
+}
+
+@media (max-width: 767px){
+    #current-course {
+    border: 1px solid black; /*adds the left border back when stacked*/
+    }
+}
+
+#current-course li{ /*get rid of bullet pt and center*/
+   text-align: center;
+   list-style: none;
+   line-height: 1.8;
+}
+
+#employ li{ /*get rid of bullet pt and center*/
+   text-align: center;
+   list-style: none;
+   line-height: 1.8;
+}
+
+.list-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+#skills { /*skills section*/
+  background-color: #EBF2EB;
+}
+
+#skills-list {
+    font-size: 1.5em;
+    list-style-type: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid black;
+}
+
+.bar-red {
+    font-size: 1em;
+    background-color: lightcoral; /* different bar colors depending on progress level */
+}
+
+.bar-orange {
+    font-size: 1em;
+    background-color: lightsalmon;
+}
+
+.bar-green {
+    font-size: 1em;
+    color: black;
+    background-color: lightgreen;
+}
+
+.bar-blue {
+    font-size: 1em;
+    color: black;
+    background-color: lightskyblue;
+}
+
+#projs { /*projects section*/
+  background-color: #f0f8ff;
+}
+
+.card-img-top{
+  width:100%; /*makes card images responsive too*/
+  height:auto;
+}
+
+.row-equal { 
+     display: flex;  /*make the row the same height*/
+    flex-wrap: wrap;
+}
+
+.btn-title {
+    font-size: 1.3em;
+    width: 100%;
+    border: 3px solid darkblue;
+}
+
+#contact {
+    background-color: white;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-top: 3px solid black;
+}
+
+#contact-icons {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.icons {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icon-img {
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+img {
+    pointer-events: none; /*prevent right click save image */
+}
+
+/* media query for xs devices and navbar*/
+
+@media (max-width: 479px) {
+  .col-xxs-12 {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
