@@ -112,7 +112,7 @@ button:hover {
     padding-bottom: 5%; /*padding bottom for about smaller because of potfolio images taking up room */
 }
 
-#course-taken, #employ{ /*left col for courses taken box around all*/
+#course-taken, #employ, #extra{ /*left col for courses taken box around all*/
     border: 1px solid black;
 }
 
@@ -139,7 +139,7 @@ button:hover {
    line-height: 1.8;
 }
 
-#employ li{ /*get rid of bullet pt and center*/
+#employ li, #extra li{ /*get rid of bullet pt and center*/
    text-align: center;
    list-style: none;
    line-height: 1.8;
