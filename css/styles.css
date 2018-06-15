@@ -4,7 +4,7 @@ body {
 }
 
 #header-nav {
-  background-color: #1971ff; /*navbar background*/
+  background-color: #003300; /*navbar background*/
   border-radius: 0;
   border: 0;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .navbar-brand h1:hover, .navbar-brand h1:focus {
-    color: yellow; /*change font color of name when hover*/
+    color: #d7ffd9; /*change font color of name when hover*/
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -44,11 +44,11 @@ body {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-    background-color: black; /*change the active color on navbar*/
+    background-color: #4c8c4a; /*change the active color on navbar*/
 }
 
 #nav-list a:hover { /*hover color change*/
-    background-color: #FFFEAD;
+    background-color: #75a478;
     color: black;
 }
 
@@ -103,13 +103,15 @@ button:hover {
   min-height: 100vh;
   padding-top: 8%;
   padding-bottom: 15%;
-  background-color: #f0f8ff;
+  background-color: #EBF2EB;
   padding-right: 5%;
   padding-left: 5%;
 }
 
 #about {
     padding-bottom: 5%; /*padding bottom for about smaller because of potfolio images taking up room */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 #course-taken, #employ, #extra{ /*left col for courses taken box around all*/
@@ -152,6 +154,7 @@ button:hover {
 }
 
 #skills { /*skills section*/
+
   background-color: #EBF2EB;
 }
 
@@ -186,7 +189,8 @@ button:hover {
 }
 
 #projs { /*projects section*/
-  background-color: #f0f8ff;
+    border-top: 1px solid black;
+  background-color: #EBF2EB;
 }
 
 .card-img-top{
