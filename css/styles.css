@@ -199,7 +199,7 @@ button:hover {
 }
 
 .row-equal { 
-     display: flex;  /*make the row the same height*/
+    display: flex;  /*make the row the same height*/
     flex-wrap: wrap;
 }
 
